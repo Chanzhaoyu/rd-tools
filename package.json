@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./src"
   },
   "dependencies": {
     "antd": "^5.0.4",
