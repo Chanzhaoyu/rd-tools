@@ -18,9 +18,10 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     indent: ['error', 2],
-    'react/react-in-jsx-scope': ['off'],
-    'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
+    'react/react-in-jsx-scope': ['off'],
+    'linebreak-style': ['error', 'unix'],
+    '@typescript-eslint/no-explicit-any': 'off',
   },
 };
